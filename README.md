@@ -11,4 +11,6 @@ TECHNOLOGIES
 * item1
 
 START UP APPLICATION
-* comand1
+* brower UI for testing GraphQL queries.
+Open: http://localhost:8080/graphiql
+* doc: https://graphql.org/learn/mutations/
