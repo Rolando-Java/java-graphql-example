@@ -1,0 +1,17 @@
+query booksTestOne {
+  books {
+    author {
+      id
+      name
+    }
+  }
+  bookById(id: "4") {
+    id
+    name
+    pageCount
+    author {
+      id
+      name
+    }
+  }
+}
