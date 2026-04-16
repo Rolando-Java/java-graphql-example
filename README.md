@@ -19,7 +19,7 @@ Open: http://localhost:8080/graphiql
 * calling the graphql api of BookController
 
 ``bash
-curl --location 'http://localhost:8080/graphql' \
+curl --location 'http://localhost:8080/api/graphql' \
 --header 'Content-Type: application/json' \
 --data '{
     "query": "{\n  books {\n    author {\n      id\n      name\n    }\n  }\n  bookById(id: \"4\") {\n    id\n    name\n    pageCount\n    author {\n      id\n      name\n    }\n  }\n}\n"
